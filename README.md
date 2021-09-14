@@ -1,7 +1,7 @@
 # Linkmoa
 
 1. Commit Rules  
-   ex) feat/001 - Entity 생성
+   ex) feat/002 - User 객체
    ```aidl
     feat : 새로운 기능에 대한 커밋
     fix : 버그 수정에 대한 커밋
@@ -14,9 +14,19 @@
     test : 테스트 코드 수정에 대한 커밋
     ```
 
-2. Rules
+2. Branch Rules
+   
+   ex) feature/001
    ```
-   - 브랜치 네이밍: feature/001 - [Entity] User 객체
+    feature : 새로운 기능에 대한 커밋
+    develop : develop 관련 커밋
+    relsease : release 관련 커밋
+    bugfix : 버그 수정에 대한 커밋
+    hotfix : 급하게 처리되어야 하는 버그 수정에 대한 커밋
+   ```
+
+3. Rules
+   ```
    - 브랜치 병합 시 기록 남기기
      ex) git merge —no —ff
    - git flow(develop 기): https://velog.io/@ililil9482/git-flow-ogyxicop
